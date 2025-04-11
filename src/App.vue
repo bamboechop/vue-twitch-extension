@@ -10,7 +10,7 @@
     </p>
     <section>
       <p>You can use this template to build your own extension.</p>
-      <p>If you have any questions, please refer to the <a class="text-blue-500 underline" href="https://dev.twitch.tv/docs/extensions/overview" target="_blank">Twitch Extension Documentation</a>.</p>
+      <p>If you have any questions, please refer to the <a class="text-blue-500 underline" href="https://dev.twitch.tv/docs/extensions" target="_blank">Twitch Extension Documentation</a>.</p>
     </section>
     <nav class="flex flex-col gap-2">
       <p>The links below lead to the config and panel pages of your extension. You can use them to test your extension. They open in a new tab.</p>
