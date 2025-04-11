@@ -4,6 +4,11 @@
     <section>
       <p>This template is a starting point for building a Twitch extension using Vue 3 and Tailwind CSS.</p>
       <p>It includes a basic configuration and panel for your extension.</p>
+    </section>
+    <p class="bg-teal-950 border-l-4 border-teal-800 text-neutral-200 p-4 w-full text-sm">
+      This project runs on port <span class="font-semibold">8080</span> by default, which is configured to work seamlessly with Twitch's local testing environment.
+    </p>
+    <section>
       <p>You can use this template to build your own extension.</p>
       <p>If you have any questions, please refer to the <a href="https://dev.twitch.tv/docs/extensions/overview">Twitch Extension Documentation</a>.</p>
     </section>
