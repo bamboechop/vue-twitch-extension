@@ -42,5 +42,8 @@ export default defineConfig(({ command }) => {
         '@': fileURLToPath(new URL('./src', import.meta.url))
       },
     },
+    server: {
+      port: 8080,
+    },
   }
 })
