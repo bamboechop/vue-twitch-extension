@@ -5,9 +5,10 @@
       <p>This template is a starting point for building a Twitch extension using Vue 3 and Tailwind CSS.</p>
       <p>It includes a basic configuration and panel for your extension.</p>
     </section>
-    <p class="bg-teal-950 border-l-4 border-teal-800 text-neutral-200 p-4 w-full text-sm">
-      This project runs on port <span class="font-semibold">8080</span> by default, which is configured to work seamlessly with Twitch's local testing environment.
-    </p>
+    <div class="bg-teal-950 border-l-4 border-teal-800 text-neutral-200 p-4 w-full text-sm flex flex-col gap-y-2">
+      <p>This project runs on port <span class="font-semibold">8080</span> by default, which is configured to work seamlessly with Twitch's local testing environment.</p>
+      <p><span class="font-semibold">NOTE:</span> To properly test code you write using the Twitch extension helper (window.Twitch.ext) you'll need to preview your code directly on Twitch.</p>
+    </div>
     <section>
       <p>You can use this template to build your own extension.</p>
       <p>If you have any questions, please refer to the <a class="text-blue-500 underline" href="https://dev.twitch.tv/docs/extensions" target="_blank">Twitch Extension Documentation</a>.</p>
@@ -23,7 +24,7 @@
       <p class="text-sm">The panel is set to a max-width of 318px. This is the maximum width of an iframe on Twitch.</p>
     </nav>
     <div class="flex flex-col gap-2 items-center text-gray-500 self-center mt-8">
-      <a class="text-blue-500 underline" href="https://github.com/twitchdev/twitch-extension-template" target="_blank">View the source code on GitHub</a>
+      <a class="text-blue-500 underline" href="https://github.com/bamboechop/vue-twitch-extension" target="_blank">View the source code on GitHub</a>
       <p class="text-sm">This page is only available in development mode.</p>
     </div>
   </main>
