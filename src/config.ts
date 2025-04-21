@@ -1,6 +1,6 @@
 import './assets/base.css'
 
 import { createApp } from 'vue'
-import Config from './Config.vue'
+import Mobile from './Mobile.vue'
 
-createApp(Config).mount('#config')
+createApp(Mobile).mount('#mobile')
