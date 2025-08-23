@@ -1,7 +1,5 @@
 <template>
-  <main class="h-screen max-w-twitch-iframe mx-auto">
-    <h1>Video Component</h1>
-  </main>
+  Video Component
 </template>
 
 <script setup lang="ts">

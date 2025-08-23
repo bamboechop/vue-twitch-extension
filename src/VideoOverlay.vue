@@ -1,7 +1,5 @@
 <template>
-  <main class="h-screen max-w-twitch-iframe mx-auto">
-    <h1>Video Overlay</h1>
-  </main>
+  Video Overlay
 </template>
 
 <script setup lang="ts">
