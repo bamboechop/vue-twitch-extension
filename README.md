@@ -66,7 +66,7 @@ A modern, production-ready template for building Twitch Extensions using Vue 3, 
 
 The project follows a modular architecture with clear separation of concerns:
 
-- **Views**: Each Twitch Extension view (Panel, Mobile, Config) has its own Vue component and entry point
+- **Views**: Each Twitch Extension view (Panel, Mobile, Config, Video Component, Video Overlay) has its own Vue component and entry point
 - **Shared Code**: Common interfaces and utilities are organized in the `common` directory
 - **Configuration**: Multiple TypeScript configs handle different environments (app, node, base)
 - **Build**: Vite configuration optimized for Twitch Extension development
@@ -77,15 +77,19 @@ The development server runs on port 8080, matching Twitch's local testing enviro
 
 The project includes several key entry points for different parts of your Twitch Extension:
 
-- `src/App.vue` - Development landing page (only visible in development mode)
-- `src/Config.vue` - Configuration page for broadcasters
-- `src/Mobile.vue` - The mobile view shown in the Twitch app
-- `src/Panel.vue` - The panel view shown on Twitch
+- `src/App.vue` - Development landing page (only visible in development mode).
+- `src/Config.vue` - Configuration page for broadcasters.
+- `src/Mobile.vue` - The mobile view shown in the Twitch app.
+- `src/Panel.vue` - Displays in a box under the video.
+- `src/VideoComponent-vue` - Displays as part of the video, taking up part of the screen. Component Extensions can be hidden by viewers.
+- `src/VideoOverlay.vue` - Displays on top of the whole video as a transparent overlay.
 
 Each view has its own entry point in the `src` directory:
 - `config.ts` - Entry point for the configuration view
 - `mobile.ts` - Entry point for the mobile view
 - `panel.ts` - Entry point for the panel view
+- `video_component.ts` - Entry point for the video component view
+- `video_overlay.ts` - Entry point for the video overlay view
 
 The development server runs on port 8080 by default, which is configured to work seamlessly with Twitch's local testing environment. After starting the development server you'll be greeted by the development landing page which links to all available views for testing.
 
