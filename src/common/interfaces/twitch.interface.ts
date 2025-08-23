@@ -6,6 +6,10 @@ export interface TwitchExtensionAuthResponse {
   userId: string;
 }
 
+export interface TwitchExtensionContextResponse {
+  theme: 'light' | 'dark';
+}
+
 /*
  * Twitch provides various information via URL parameters.
  * If you need them, the interfaces and type below describe them.
