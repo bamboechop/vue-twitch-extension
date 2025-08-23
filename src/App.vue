@@ -19,6 +19,8 @@
         <a class="text-blue-500 underline" href="/config" target="_blank">Config</a>
         <a class="text-blue-500 underline" href="/panel" target="_blank">Panel</a>
         <a class="text-blue-500 underline" href="/mobile" target="_blank">Mobile</a>
+        <a class="text-blue-500 underline" href="/video_component" target="_blank">Video Component</a>
+        <a class="text-blue-500 underline" href="/video_overlay" target="_blank">Video Overlay</a>
       </section>
       <p class="text-sm">All pages will be loaded within iframes on the Twitch website. Keep this in mind when developing your extension.</p>
       <p class="text-sm">The panel is set to a max-width of 318px. This is the maximum width of an iframe on Twitch.</p>
