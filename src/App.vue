@@ -9,6 +9,9 @@
       <p>This project runs on port <span class="font-semibold">8080</span> by default, which is configured to work seamlessly with Twitch's local testing environment.</p>
       <p><span class="font-semibold">NOTE:</span> To properly test code you write using the Twitch extension helper (window.Twitch.ext) you'll need to preview your code directly on Twitch.</p>
     </div>
+    <div class="bg-yellow-950 border-l-4 border-yellow-800 text-neutral-200 p-4 w-full text-sm flex flex-col gap-y-2">
+      <p>After setting up your extension on Twitch you must go to the <span class="underline">Asset Hosting</span> tab and change the <span class="font-bold">Testing Base URI</span> from https://localhost:8080 to <span class="font-bold">http</span>://localhost:8080!</p>
+    </div>
     <section>
       <p>You can use this template to build your own extension.</p>
       <p>If you have any questions, please refer to the <a class="text-blue-500 underline" href="https://dev.twitch.tv/docs/extensions" target="_blank">Twitch Extension Documentation</a>.</p>
