@@ -1,10 +1,15 @@
 <template>
-  <main class="flex flex-col items-start justify-center h-screen gap-y-8 max-w-2xl mx-auto">
+  <main class="flex flex-col gap-y-8 max-w-2xl mx-auto py-8 px-4">
     <h1 class="text-5xl font-bold self-center">Twitch Extension Template</h1>
     <section>
       <p>This template is a starting point for building a Twitch extension using Vue 3 and Tailwind CSS.</p>
       <p>It includes a basic configuration and panel for your extension.</p>
     </section>
+    <div class="bg-red-950 border-l-4 border-red-800 text-neutral-200 p-4 w-full text-sm flex flex-col gap-y-2">
+      <p>If your using <span class="font-bold">Google Chrome</span> for development and do not want to host your local development website on a real domain with SSL go to <span class="underline font-bold">chrome://flags/#local-network-access-check</span> and disable the Local Network Access Checks flag. </p>
+      <p>Google introduced Local Network Access Checks in Chrome 142. While this is a great security feature, as long as Twitch does not update their local testing environment to ask for the permission, your extensions won't load at all in Local Test mode. Instead, you'll see a CORS error for the extensions html file you are trying to load (e.g. panel.html).</p>
+      <p>Note: Only disable this flag for the duration of your development session. The flag itself is a great security feature and you should not disable it permanently, especially if you're using Chrome for your daily browsing.</p>
+    </div>
     <div class="bg-teal-950 border-l-4 border-teal-800 text-neutral-200 p-4 w-full text-sm flex flex-col gap-y-2">
       <p>This project runs on port <span class="font-semibold">8080</span> by default, which is configured to work seamlessly with Twitch's local testing environment.</p>
       <p><span class="font-semibold">NOTE:</span> To properly test code you write using the Twitch extension helper (window.Twitch.ext) you'll need to preview your code directly on Twitch.</p>
