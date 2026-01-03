@@ -110,6 +110,12 @@ Remember that all views will be loaded within iframes on the Twitch website, and
 - Modify `tsconfig.json` for TypeScript settings
 - Update `eslint.config.ts` for linting rules
 
+## 📦 Release Infos
+
+### My extension no longer shows bits products and the permission (`window.Twitch.ext.features.isBitsEnabled`) is always `false`!
+[This is an old bug on Twitch, first reported in March 2021](https://github.com/twitchdev/issues/issues/359). It does not only disable bits but also other feature flags.  
+**There is a workaround for it**: Completely uninstall the extension (not just deactivate) and install it again. This resets the permissions.
+
 ## 📚 Twitch Extension Development Resources
 
 - [Developer Documentation](https://dev.twitch.tv/docs/extensions)
