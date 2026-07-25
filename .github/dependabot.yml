@@ -22,3 +22,25 @@ updates:
         versions: ["7"]
     assignees:
       - "bamboechop"
+    groups:
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@eslint"
+      tailwind:
+        patterns:
+          - "@tailwindcss*"
+          - "tailwindcss*"
+      typescript:
+        patterns:
+          - "typescript"
+          - "@types/node"
+          - "@tsconfig/node24"
+      vite:
+        patterns:
+          - "vite*"
+          - "@vite*"
+      vue:
+        patterns:
+          - "@vue*"
+          - "vue*"
